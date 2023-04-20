@@ -1,0 +1,55 @@
+
+
+/* Menyns fixerade position */
+.meny {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Den fixerade, fasta, positionen */
+    top: 0; /* Menyn ligger längst upp på sidan */
+    width: 100%;
+  }
+
+  /* Styling av menyinnehållet, länkarna */
+.meny a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10%; 
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-decoration: none;
+}
+
+/* Innehållet på hela sidan */
+.container {
+    margin-top: 5%; /* För att inte menyn ska täcka innehållet längst upp på sidan, rukriken, skapas en margin */
+  }
+    
+ul{
+    list-style: none;
+}
+
+/* Styling för Kurser */
+.dag{
+    font-size: large;
+}
+
+.tid{
+    font-size: small;
+}
+
+
+.kurser, .veckanskock{
+    border: 5px solid;
+    padding: 5px;
+}
+
+.kurser{
+    margin-right: 5px;    
+}
+
+.veckanskock{
+    margin-left: 5px;  
+}
