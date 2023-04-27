@@ -4,14 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amatörmatlagning</title>
+    <title>Tips</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
   </head>
 
   <!-- Här följer: innehållet för all kodning. -->
   <body>
-    <div class="containerbi">
+    <div class="bicontainer">
     
 <!-- Koden för menyn. -->
 <div class="meny">
@@ -20,16 +20,87 @@
     <a id="startlink" href="index.html">Startsida</a>
 </div>
 
-<div class="catmeny">
-    <a id="crecept" href=""
+<!-- Kod för menyn (inom sidan) för kategorierna på sidan -->
+<div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div>
+  
+
+<div id="openknapp">
+    <button class="openbtn" onclick="openNav()">☰ Kategorier</button>  
+  </div>
+
+<!-- Huvudrubriken -->
+<h1 id="birubrik">Tips</h1>
+
+<!-- Recepten: Bild och text -->
+<h2 id="receptid">Recept</h2>
+
+<img src="" alt="Bild på receptet till höger">
+
+ <p>Donec ligula elit, ullamcorper sit amet vestibulum sit amet, interdum vel tellus. Proin in fringilla nibh. Cras vehicula tempor ex tristique vestibulum. Maecenas id posuere diam. Aliquam erat volutpat. In at nibh nec quam malesuada vestibulum quis a leo. Aliquam eu justo nunc. Aliquam eget nisi est. Duis sagittis venenatis ultricies. Curabitur id vestibulum sem, nec tempor purus. Donec eget diam velit. Nullam volutpat ornare consectetur. Fusce commodo finibus quam quis volutpat.
+
+    Donec ut rutrum justo. Nulla facilisi. Pellentesque semper quis metus ac pharetra. Nam sodales vel ligula eget lobortis. Nunc sed est pharetra mi dictum fermentum id sed diam. Morbi interdum ultricies risus, accumsan vestibulum lectus dignissim vitae. Praesent eleifend rhoncus maximus. Cras et erat ex. Curabitur elit ligula, ullamcorper in posuere et, ornare a nisi. Curabitur malesuada lobortis nulla eu placerat. Nullam aliquet ultricies elit et porttitor. Nullam dignissim ipsum eget nibh ultrices, eu lobortis tellus viverra.
+    
+    Suspendisse id auctor mi, eu blandit magna. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam ullamcorper tempus leo vel volutpat. Nullam eget pulvinar ex. Curabitur quis urna non odio imperdiet euismod eget at felis. Donec eget condimentum tellus. Morbi et sem dui. Donec semper vehicula aliquet. Vivamus in faucibus diam. Vivamus pretium orci sit amet dolor dictum placerat sit amet quis libero. Donec vulputate, felis non efficitur rutrum, tortor diam scelerisque lacus, id convallis lacus sem ac odio.
+    
+    Nunc sit amet velit ut diam egestas hendrerit vitae in dolor. Maecenas vitae urna odio. Nam sit amet imperdiet magna. Morbi tempor sem eget diam tincidunt commodo. Aliquam tincidunt nisi at purus volutpat sollicitudin. Sed sed lorem a urna ultrices consectetur ut ac elit. Donec mauris ipsum, fermentum placerat risus sed, porta ullamcorper nibh. Nulla vitae ante sed metus ultrices cursus quis non tellus. Mauris mollis purus in efficitur tempor. Aenean pharetra magna a nisl tristique lacinia. Suspendisse ultrices rutrum tristique. Cras interdum odio a orci egestas dictum. Sed in lobortis neque, vitae facilisis ipsum. Phasellus interdum felis erat, cursus rhoncus nulla tempor condimentum. Vestibulum euismod dictum rutrum. Nunc a ultricies quam.</p>
 
 </div>
 
+<h2 id="platsid">Plats</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit volutpat iaculis. Curabitur eleifend tincidunt elit et cursus. Donec nec augue id mi aliquam semper ut ac est. Aliquam bibendum viverra sodales. Quisque tempus enim non erat condimentum, vel consequat massa dictum. Ut nec aliquam arcu. Donec enim nisi, mattis sed efficitur eget, placerat a erat. Donec tincidunt auctor molestie. Donec rutrum luctus nisi, at aliquet risus imperdiet a.
+
+    Morbi rutrum augue at nulla imperdiet, ac luctus neque maximus. Pellentesque auctor id orci at tempus. Vivamus et odio lacus. Nam interdum erat et odio tincidunt vulputate. Donec non quam mauris. Sed non velit id ligula ullamcorper vestibulum ac nec nibh. Suspendisse iaculis, urna ut rhoncus imperdiet, diam arcu fermentum eros, posuere lacinia mauris purus in odio. Nullam quis nunc eros.
+    
+    Sed tempus tempor bibendum. Donec sit amet elit vel tellus finibus elementum sed ut sem. Aliquam id quam eu ipsum eleifend suscipit. Phasellus tincidunt porta nisl nec aliquet. Aenean ipsum massa, vestibulum in lacus eu, imperdiet dignissim ipsum. Cras sit amet leo quis eros finibus rutrum. Phasellus quis feugiat lorem, vel cursus massa. Donec placerat elit nisi, quis facilisis ipsum tincidunt eget. Curabitur sit amet orci posuere, pellentesque elit quis, sodales urna. Suspendisse quis scelerisque lectus.</p>
+
+<h2 id="utrustningid">Utrustning</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit volutpat iaculis. Curabitur eleifend tincidunt elit et cursus. Donec nec augue id mi aliquam semper ut ac est. Aliquam bibendum viverra sodales. Quisque tempus enim non erat condimentum, vel consequat massa dictum. Ut nec aliquam arcu. Donec enim nisi, mattis sed efficitur eget, placerat a erat. Donec tincidunt auctor molestie. Donec rutrum luctus nisi, at aliquet risus imperdiet a.
+
+    Morbi rutrum augue at nulla imperdiet, ac luctus neque maximus. Pellentesque auctor id orci at tempus. Vivamus et odio lacus. Nam interdum erat et odio tincidunt vulputate. Donec non quam mauris. Sed non velit id ligula ullamcorper vestibulum ac nec nibh. Suspendisse iaculis, urna ut rhoncus imperdiet, diam arcu fermentum eros, posuere lacinia mauris purus in odio. Nullam quis nunc eros.
+    
+    Sed tempus tempor bibendum. Donec sit amet elit vel tellus finibus elementum sed ut sem. Aliquam id quam eu ipsum eleifend suscipit. Phasellus tincidunt porta nisl nec aliquet. Aenean ipsum massa, vestibulum in lacus eu, imperdiet dignissim ipsum. Cras sit amet leo quis eros finibus rutrum. Phasellus quis feugiat lorem, vel cursus massa. Donec placerat elit nisi, quis facilisis ipsum tincidunt eget. Curabitur sit amet orci posuere, pellentesque elit quis, sodales urna. Suspendisse quis scelerisque lectus.</p>
 
 
-</div>
+<h2 id="teknikid">Teknik</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit volutpat iaculis. Curabitur eleifend tincidunt elit et cursus. Donec nec augue id mi aliquam semper ut ac est. Aliquam bibendum viverra sodales. Quisque tempus enim non erat condimentum, vel consequat massa dictum. Ut nec aliquam arcu. Donec enim nisi, mattis sed efficitur eget, placerat a erat. Donec tincidunt auctor molestie. Donec rutrum luctus nisi, at aliquet risus imperdiet a.
+
+    Morbi rutrum augue at nulla imperdiet, ac luctus neque maximus. Pellentesque auctor id orci at tempus. Vivamus et odio lacus. Nam interdum erat et odio tincidunt vulputate. Donec non quam mauris. Sed non velit id ligula ullamcorper vestibulum ac nec nibh. Suspendisse iaculis, urna ut rhoncus imperdiet, diam arcu fermentum eros, posuere lacinia mauris purus in odio. Nullam quis nunc eros.
+    
+    Sed tempus tempor bibendum. Donec sit amet elit vel tellus finibus elementum sed ut sem. Aliquam id quam eu ipsum eleifend suscipit. Phasellus tincidunt porta nisl nec aliquet. Aenean ipsum massa, vestibulum in lacus eu, imperdiet dignissim ipsum. Cras sit amet leo quis eros finibus rutrum. Phasellus quis feugiat lorem, vel cursus massa. Donec placerat elit nisi, quis facilisis ipsum tincidunt eget. Curabitur sit amet orci posuere, pellentesque elit quis, sodales urna. Suspendisse quis scelerisque lectus.</p>
+
+
+<h2 id="kockarid">Kockar</h2>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus hendrerit volutpat iaculis. Curabitur eleifend tincidunt elit et cursus. Donec nec augue id mi aliquam semper ut ac est. Aliquam bibendum viverra sodales. Quisque tempus enim non erat condimentum, vel consequat massa dictum. Ut nec aliquam arcu. Donec enim nisi, mattis sed efficitur eget, placerat a erat. Donec tincidunt auctor molestie. Donec rutrum luctus nisi, at aliquet risus imperdiet a.
+
+    Morbi rutrum augue at nulla imperdiet, ac luctus neque maximus. Pellentesque auctor id orci at tempus. Vivamus et odio lacus. Nam interdum erat et odio tincidunt vulputate. Donec non quam mauris. Sed non velit id ligula ullamcorper vestibulum ac nec nibh. Suspendisse iaculis, urna ut rhoncus imperdiet, diam arcu fermentum eros, posuere lacinia mauris purus in odio. Nullam quis nunc eros.
+    
+    Sed tempus tempor bibendum. Donec sit amet elit vel tellus finibus elementum sed ut sem. Aliquam id quam eu ipsum eleifend suscipit. Phasellus tincidunt porta nisl nec aliquet. Aenean ipsum massa, vestibulum in lacus eu, imperdiet dignissim ipsum. Cras sit amet leo quis eros finibus rutrum. Phasellus quis feugiat lorem, vel cursus massa. Donec placerat elit nisi, quis facilisis ipsum tincidunt eget. Curabitur sit amet orci posuere, pellentesque elit quis, sodales urna. Suspendisse quis scelerisque lectus.</p>
+
+
+
     <!-- Längst ner länkas scriptet som kontrollerar JavaScript. -->
-<script src="script.js"> </script>
+<script src="script.js"></script>
 
  </body>
 </html>
+
+
+<!--<div id="catmenyid" class="catmeny">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a id="crecept" href="#receptid">Recept</a>
+    <a id="cplats" href="#platsid">Plats</a>
+    <a id="cutrustning" href="#utrustningid">Utrustning</a>
+    <a id="cteknik" href="#teknikid">Teknik</a>
+    <a id="ckockar" href="#kockarid">Kockar</a>
+</div>-->
