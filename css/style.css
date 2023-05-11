@@ -1,16 +1,10 @@
 
-*{margin: 0;
-    padding: 0;
+/* Följande visar att om inte annat anges, ska inget element ha en margin eller padding */
+*{
+  margin: 0;
+  padding: 0;
 }
 
-/* Innehållet på hela startsidan 
-.container {
-  }
-    
-/* Innehållet på hela bisidan 
-.bicontainer {
-  margin
-  }
 
 /* Menyns fixerade position */
 .meny {
@@ -49,11 +43,9 @@
   }
   
   .catmeny a {
-   /* padding: 8% 8% 8% 25%; */
     padding-top: 5%;
     padding-bottom: 5%;
     padding-left: 10%;
-   /* padding-right: ; */
     text-decoration: none;
     font-size: 80%; 
     color: #818181;
@@ -86,24 +78,27 @@
   }
   /* Slut med kategorimeny styling */
 
+/* Styling för alla listor */
 ul{
     list-style: none;
 }
-
+/* HÄR FORTSÄTTER MITT FÖRSÖK I ATT TA BORT KATEGORIMENYN NÄR JAVASCRIPT INTE FUNGERAR 
 .intevisa{
   display: none;
 }
+*/
 
 /* Allt som ska ha en left margin får klassen lemar*/
 .lemar{
   margin-left: 2%;
 }
 
+/* Allt som ska förslyttas när kategorimenyn ligger på vänsterkanten, märks med move */
 .move{
   margin-left: 2%;
 }
 
-/* Styling för Kurser */
+/* Styling för fältet för Kurser */
 .dag{
     font-size: large;
 }
@@ -121,22 +116,18 @@ ul{
     margin-right: 5px;    
 }
 
+/* Styling för fältet för veckans kock */
 .veckanskock{
     margin-left: 5px;  
 }
 
+/* Styling för bilden på bisidan, receptbilden */
 #receptbild{
   width: 96%;
   border: 2px solid;
 }
 
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) 
-  @media screen and (max-height: 450px) {
-    .catmeny {padding-top: 15px;}
-    .catmeny a {font-size: 18px;}
-  }
-
-/* Här nedan följer media query. Detta används för att förändra sidans utseende vid speciella förutsättningar. */
+/* Här nedan följer media query. Detta används för att förändra sidans utseende vid speciella förutsättningar, i detta fall när skärmen är mindre än 769px */
 @media only screen and (max-width: 768px){
   .kurser{
     margin-right: 0;
