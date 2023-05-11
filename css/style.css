@@ -86,12 +86,15 @@
   }
   /* Slut med kategorimeny styling */
 
-
 ul{
     list-style: none;
 }
 
-/* Allt som ska ha en left margin få klassen lemar*/
+.intevisa{
+  display: none;
+}
+
+/* Allt som ska ha en left margin får klassen lemar*/
 .lemar{
   margin-left: 2%;
 }
@@ -122,7 +125,12 @@ ul{
     margin-left: 5px;  
 }
 
-  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+#receptbild{
+  width: 96%;
+  border: 2px solid;
+}
+
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) 
   @media screen and (max-height: 450px) {
     .catmeny {padding-top: 15px;}
     .catmeny a {font-size: 18px;}
